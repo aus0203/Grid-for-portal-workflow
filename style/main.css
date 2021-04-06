@@ -66,3 +66,12 @@
 .box{
     padding: 20px;
 }
+
+@media only screen and (max-width: 900px){
+   .main{
+    grid-template-areas: 
+    "top-area top-area"
+    "left-column left-column"
+    "right-column right-column";
+   }
+}
